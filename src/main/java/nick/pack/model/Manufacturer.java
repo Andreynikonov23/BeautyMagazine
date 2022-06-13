@@ -1,8 +1,8 @@
 package nick.pack.model;
 
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Set;
 
@@ -10,11 +10,11 @@ import java.util.Set;
 @Entity
 public class Manufacturer {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private LocalDate date;
-    @OneToMany (mappedBy = "manufacturer")
+    @OneToMany(mappedBy = "manufacturer")
     Set<Product> set;
 
     @Override

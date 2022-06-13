@@ -1,25 +1,25 @@
 package nick.pack.model;
 
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Data
 @Entity
-@Table (name = "product_sale")
+@Table(name = "product_sale")
 public class ProductSale {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column (name = "sale_date")
+    @Column(name = "sale_date")
     private LocalDate saleDate;
-    @ManyToOne
+    @ManyToOne (fetch = FetchType.EAGER)
     @JoinColumn (name = "product_id")
-    private Product productId;
+    private Product product;
 
     @Override
     public String toString(){
-        return productId + " - " + saleDate;
+        return product + " - " + saleDate;
     }
 }

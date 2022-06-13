@@ -14,5 +14,6 @@
         <mapping class="nick.pack.model.Product"/>
         <mapping class="nick.pack.model.Manufacturer"/>
         <mapping class="nick.pack.model.ProductSale"/>
+        <mapping class="nick.pack.model.Users"/>
     </session-factory>
 </hibernate-configuration>

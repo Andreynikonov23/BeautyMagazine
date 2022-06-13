@@ -1,0 +1,7 @@
+.pane{
+    -fx-background-color: #6B6B6B;
+}
+.signin-button{
+    -fx-background-color: #558eff;
+    -fx-color: white;
+}

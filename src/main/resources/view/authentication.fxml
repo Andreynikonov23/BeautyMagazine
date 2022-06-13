@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="pane" fx:id="anchorPane" prefHeight="400.0" prefWidth="336.0" style="-fx-background-color: #6B6B6B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nick.pack.controller.AuthenticationController">
+   <children>
+      <Label layoutX="102.0" layoutY="66.0" text="Вход" textFill="#558eff">
+         <font>
+            <Font name="Comic Sans MS" size="55.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginTxt" layoutX="95.0" layoutY="188.0" promptText="Login" />
+      <PasswordField fx:id="passwordTxt" layoutX="95.0" layoutY="223.0" promptText="Password" />
+      <Button fx:id="signInButton" defaultButton="true" layoutX="123.0" layoutY="312.0" mnemonicParsing="false" onAction="#signIn" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #558eff;" styleClass="signin-button" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="errorLabel" layoutX="77.0" layoutY="268.0" textFill="#ffb6b6" />
+      <Button layoutX="122.0" layoutY="345.0" mnemonicParsing="false" onAction="#signUp" prefHeight="25.0" prefWidth="90.0" text="Sign Up">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

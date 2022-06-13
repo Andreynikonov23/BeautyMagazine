@@ -5,22 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b6b577a-2413-41ba-8bb4-d6929b115ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/EntityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/ManufacturerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/ProductSaleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/TileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logo/beauty_logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/authentication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/create.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/css/authentication.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/css/tile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/magazine.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/registration.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/tile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/service/EntityList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/service/EntityList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781670-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781670-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781674-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781674-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781675-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781675-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781676-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781676-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781678-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781678-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781679-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781679-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781680-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781680-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781693-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781693-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781695-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781695-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781696-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781696-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product photo/1781711-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/productPhoto/1781711-1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -49,16 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/IdeaProjects/BeautyMagazine/src/main/resources/logo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\IdeaProjects\BeautyMagazine\src\main\resources\logo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nick.pack.Main" />
       <module name="BeautyMagazine" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx\lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nick.pack.*" />

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="358.0" prefWidth="633.0" style="-fx-background-color: #6B6B6B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nick.pack.controller.RegistrationController">
+   <children>
+      <Label layoutX="210.0" layoutY="38.0" text="Регистрация" textFill="#558eff">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="38.0" layoutY="148.0" prefHeight="60.0" prefWidth="253.0" vgap="20.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.0" minWidth="10.0" prefWidth="90.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="198.0" minWidth="10.0" prefWidth="163.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Логин" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label text="Пароль" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="loginField" GridPane.columnIndex="1" />
+            <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+         <opaqueInsets>
+            <Insets right="20.0" />
+         </opaqueInsets>
+      </GridPane>
+      <GridPane layoutX="343.0" layoutY="148.0" prefHeight="60.0" prefWidth="253.0" vgap="20.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="122.0" minWidth="10.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="173.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Телефон" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label text="Адресс" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="phoneField" GridPane.columnIndex="1" />
+            <TextField fx:id="addressField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="button" defaultButton="true" layoutX="278.0" layoutY="294.0" mnemonicParsing="false" onAction="#signUp" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #558eff;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="errorMassage" layoutX="38.0" layoutY="229.0" textFill="#ffb6b6" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
