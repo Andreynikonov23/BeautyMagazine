@@ -17,6 +17,15 @@ public class Manufacturer {
     @OneToMany(mappedBy = "manufacturer")
     Set<Product> set;
 
+    public Manufacturer(String name, LocalDate date){
+        this.name = name;
+        this.date = date;
+    }
+    public Manufacturer(){
+
+    }
+
+
     @Override
     public String toString(){
         return name;

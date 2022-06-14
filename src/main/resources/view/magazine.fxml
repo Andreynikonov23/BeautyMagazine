@@ -50,6 +50,7 @@
                   <Font name="Comic Sans MS Italic" size="37.0" />
                </font>
             </Label>
+            <Button fx:id="buttonUpdate" layoutX="1250.0" layoutY="78.0" mnemonicParsing="false" onAction="#updateTiles" prefHeight="25.0" prefWidth="30.0" />
          </children>
       </AnchorPane>
    </top>
@@ -71,6 +72,11 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+            </Button>
+            <Button fx:id="buttonAddManufacturer" layoutX="15.0" layoutY="83.0" mnemonicParsing="false" onAction="#addManufacturer" prefHeight="45.0" prefWidth="170.0" text="Добавит поставщика">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
             </Button>
          </children>
       </AnchorPane>

@@ -5,10 +5,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.TilePane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import nick.pack.model.Manufacturer;
@@ -72,9 +75,10 @@ public class CreateController {
             CRUD<Product> crud = new ProductService();
             crud.create(product);
             EntityList.getProductList().add(product);
-            Controller.productObservableList.add(product);
             createButton.getScene().getWindow().hide();
         } else
             errorLbl.setText("Введите все данные");
     }
+
+
 }

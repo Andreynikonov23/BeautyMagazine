@@ -25,12 +25,17 @@ public class Controller {
     static {
         productObservableList = FXCollections.observableList(EntityList.getProductList());
     }
-
     @FXML
     private Button buttonAdd;
 
     @FXML
+    private Button buttonAddManufacturer;
+
+    @FXML
     private Button historyButton;
+
+    @FXML
+    private Button buttonUpdate;
 
     @FXML
     private ComboBox<?> manufacturerBox;
@@ -69,6 +74,7 @@ public class Controller {
                 throw new RuntimeException(e);
             }
         });
+
     }
 
     @FXML
@@ -79,6 +85,15 @@ public class Controller {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/create.fxml"));
         Scene scene = new Scene(loader.load());
         stage.setScene(scene);
+    }
+
+    @FXML
+    void addManufacturer(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/addManufacturer.fxml"));
+        Stage stage = new Stage();
+        stage.show();
+        stage.setTitle("Добавить поставщика");
+        stage.setScene(new Scene(loader.load()));
     }
 
     @FXML
@@ -100,5 +115,24 @@ public class Controller {
     void search(ActionEvent event) {
 
     }
+    @FXML
+    void updateTiles(ActionEvent event) {
+        System.out.println(productObservableList);
+        tilePane.getChildren().clear();
+        productObservableList.forEach(x -> {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/tile.fxml"));
+            AnchorPane pane = null;
+            try {
+                pane = loader.load();
+                TileController tileController = loader.getController();
+                System.out.println(x.getImage());
+                tileController.setData(x);
+                tilePane.getChildren().add(pane);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
 
 }
