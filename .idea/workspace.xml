@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b6b577a-2413-41ba-8bb4-d6929b115ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/UpdateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/addManufacturer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/update.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/HistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/HistoryItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/ManufacturerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/history.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/historyItem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/manufacturer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/TileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/TileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateManufacturerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateManufacturerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/productPhoto/blog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/productPhoto/eagle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/magazine.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/magazine.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Андрей/IdeaProjects/BeautyMagazine/src/main/resources/logo",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/IdeaProjects/BeautyMagazine/src/main/resources/logo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\IdeaProjects\BeautyMagazine\src\main\resources\logo" />

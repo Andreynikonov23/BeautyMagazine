@@ -16,7 +16,7 @@
    <center>
       <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" maxWidth="1100.0" prefHeight="457.0" prefWidth="1088.0" style="-fx-background-color: #A0A0A0;" vbarPolicy="ALWAYS" BorderPane.alignment="CENTER">
          <content>
-            <TilePane fx:id="tilePane" hgap="5.0" maxHeight="-Infinity" maxWidth="1080.0" prefHeight="452.0" prefWidth="1080.0" tileAlignment="BASELINE_LEFT" vgap="5.0">
+            <TilePane fx:id="tilePane" hgap="5.0" maxHeight="-Infinity" maxWidth="1080.0" prefHeight="677.0" prefWidth="1080.0" tileAlignment="BASELINE_LEFT" vgap="5.0">
                <padding>
                   <Insets left="10.0" top="10.0" />
                </padding>
@@ -32,7 +32,7 @@
                   <Font name="Comic Sans MS Italic" size="37.0" />
                </font>
             </Label>
-            <TextField fx:id="searchField" layoutX="572.0" layoutY="22.0" onAction="#search" prefHeight="25.0" prefWidth="425.0" promptText="Поиск" />
+            <TextField fx:id="searchField" layoutX="572.0" layoutY="22.0" prefHeight="25.0" prefWidth="425.0" promptText="Поиск" />
             <ComboBox fx:id="manufacturerBox" layoutX="572.0" layoutY="78.0" onAction="#manufacturerFilter" prefWidth="150.0" style="-fx-background-color: #B8B8B8;" />
             <ComboBox fx:id="sortingBox" layoutX="847.0" layoutY="78.0" onAction="#costSorting" prefWidth="150.0" style="-fx-background-color: #B8B8B8;" />
             <Label layoutX="572.0" layoutY="59.0" text="Производитель" textFill="WHITE">
@@ -57,7 +57,7 @@
    <left>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #626262;" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="historyButton" layoutX="15.0" layoutY="398.0" mnemonicParsing="false" onAction="#purchaseHistory" prefHeight="45.0" prefWidth="170.0" style="-fx-background-color: #558eff;" text="История покупок" textFill="WHITE">
+            <Button fx:id="historyButton" layoutX="16.0" layoutY="616.0" mnemonicParsing="false" onAction="#purchaseHistory" prefHeight="45.0" prefWidth="170.0" style="-fx-background-color: #558eff;" text="История покупок" textFill="WHITE">
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
                </font>
@@ -73,7 +73,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="buttonAddManufacturer" layoutX="15.0" layoutY="83.0" mnemonicParsing="false" onAction="#addManufacturer" prefHeight="45.0" prefWidth="170.0" text="Добавит поставщика">
+            <Button fx:id="buttonAddManufacturer" layoutX="16.0" layoutY="137.0" mnemonicParsing="false" onAction="#addManufacturer" prefHeight="45.0" prefWidth="170.0" text="Поставщики">
                <font>
                   <Font name="Comic Sans MS" size="14.0" />
                </font>
@@ -81,15 +81,4 @@
          </children>
       </AnchorPane>
    </left>
-   <bottom>
-      <AnchorPane prefHeight="217.0" prefWidth="1294.0" BorderPane.alignment="CENTER">
-         <children>
-            <ScrollPane fx:id="salePane" layoutY="-3.0" prefHeight="221.0" prefWidth="1294.0" style="-fx-background-color: #717171;">
-               <content>
-                  <TilePane fx:id="saleTilePane" prefHeight="216.0" prefWidth="200.0" />
-               </content>
-            </ScrollPane>
-         </children>
-      </AnchorPane>
-   </bottom>
 </BorderPane>

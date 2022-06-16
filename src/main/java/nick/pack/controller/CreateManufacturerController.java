@@ -26,9 +26,8 @@ public class CreateManufacturerController {
     void create(ActionEvent event) {
         Manufacturer manufacturer = new Manufacturer(nameField.getText(), datePicker.getValue());
         CRUD<Manufacturer> crud = new ManufacturerService();
-        EntityList.getManufacturerList().add(manufacturer);
         crud.create(manufacturer);
         createButton.getScene().getWindow().hide();
+        ManufacturerController.getManufacturers().add(manufacturer);
     }
-
 }

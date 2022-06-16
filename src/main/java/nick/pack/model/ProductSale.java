@@ -14,6 +14,7 @@ public class ProductSale {
     private int id;
     @Column(name = "sale_date")
     private LocalDate saleDate;
+    private int quantity;
     @ManyToOne (fetch = FetchType.EAGER)
     @JoinColumn (name = "product_id")
     private Product product;
