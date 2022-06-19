@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b6b577a-2413-41ba-8bb4-d6929b115ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/HistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/HistoryItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/ManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/history.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/historyItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/manufacturer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateManufacturerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/controller/CreateManufacturerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nick/pack/model/ProductSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/magazine.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/magazine.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
